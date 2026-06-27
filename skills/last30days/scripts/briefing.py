@@ -11,6 +11,10 @@ Usage:
     python3 briefing.py show [--date DATE]    # Show saved briefing
 """
 
+import lib.clients
+import lib.http_session
+import lib.transport
+import lib.session
 import argparse
 import json
 import sys
